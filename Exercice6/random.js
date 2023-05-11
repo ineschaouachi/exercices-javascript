@@ -1,7 +1,7 @@
 function VerifRandom(min, max) {
 
     var r = parseInt(Math.random() * (max - min) + min);
-    var i = 0;
+    var i = 1;
     //alert(r);
     var N = Number(prompt("Entrez un entier"));
     while (N != r) {
