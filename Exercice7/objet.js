@@ -4,7 +4,7 @@ class member {
         this.name = name;
         this.grade = grade;
         this.toString = function () {
-            return "ID: " + this.id + ", Name: " + this.name + ", Grade: " + this.grade;
+            return `ID : ${this.id}, Nom : ${this.name}, Grade : ${this.grade}`;
         };
     }
 }
