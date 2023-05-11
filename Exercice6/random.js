@@ -5,7 +5,6 @@ function VerifRandom(min, max) {
     //alert(r);
     var N = Number(prompt("Entrez un entier"));
     while (N != r) {
-        N = Number(prompt("Entrez un entier"));
         if (N > r) {
             N = Number(prompt("Entrez un entier plus petit"));
             i = i + 1;
